@@ -1,0 +1,4 @@
+baseURL = 'https://tnthub.com/'
+languageCode = 'en-us'
+title = 'TNTHub'
+theme = 'hugo-book'

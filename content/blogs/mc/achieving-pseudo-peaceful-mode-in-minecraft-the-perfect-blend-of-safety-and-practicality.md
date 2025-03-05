@@ -1,0 +1,25 @@
+---
+title: "Achieving Pseudo-Peaceful Mode in Minecraft: The Perfect Blend of Safety and Practicality"
+---
+
+As we all know, Peaceful mode in Minecraft is very safe since no hostile mobs spawn. However, it’s not perfect. The absence of hostile mobs means that some machines relying on them might break. One of the most frustrating things in the game is transporting mobs, so naturally, we want to avoid this situation. That’s where the "Pseudo-Peaceful" device comes in, allowing us to combine safety with practicality.
+
+In the current 1.19 version, there are four types of Pseudo-Peaceful designs, based on the special mechanics of shulkers, the Wither, the Warden, and zombie villagers. The basic idea is to use the fact that these mobs won't despawn when far from the player, occupying the mob cap and preventing hostile mobs from spawning. The most economical and practical design is the zombie villager Pseudo-Peaceful, which can even be built early in the game. This is the design I use in my Hardcore Survival world. One thing to remember is to carefully follow each step without skipping any, or it might fail.
+
+Before you start building the Pseudo-Peaceful device, consider the following:
+
+- Villagers must have traded at least once before becoming zombie villagers; otherwise, they will despawn after the transformation.
+- Zombie villagers should be clustered within the same chunk for easy calculation of the loader’s distance. You can press F3+G to show chunk borders.
+- Zombie villagers must be at least 42 blocks away from iron golems or other villagers; otherwise, they might crowd together while trying to attack and suffocate each other. My Pseudo-Peaceful device has broken twice because of this. To avoid triggering zombie sieges, keep them at least 111 blocks horizontally from a village. A vertical distance of more than 42 blocks is also acceptable, but this makes transportation trickier. This is the safest approach; not doing this doesn’t guarantee failure, but it’s better to be cautious.
+
+Next is transporting the villagers, which is quite simple. Capture a villager, trade with them, feed them to a zombie, and then get rid of the zombie once the transformation is complete. After that, you can transport a new villager. In my design, you can use a boat or a minecart to bring in the villagers, trade with them, and then drop them down a trapdoor. Make sure to place a job site block and use Hard difficulty, or the villager might die from the zombie's attack.
+
+You'll need a total of 70 zombie villagers. Once they’re ready, you can start building the chunk loader. Since chunks stop loading when the player leaves, you’ll need to use a Nether portal to keep the chunk containing the zombie villagers loaded. When an entity passes through a Nether portal, it loads the surrounding chunks for 15 seconds. The 3x3 chunk area centered on the portal is a force-loaded chunk, and the surrounding chunk ring is weakly loaded. You don’t need to understand this in detail; just know that entities in weakly loaded chunks don’t have active AI but still count towards the mob cap. This means the Nether portal must be one chunk away from the zombie villagers.
+
+Make sure the fire and the minecart are aligned, though you can also use a cactus instead. The device can be swapped between the Overworld and the Nether. Even if you leave, the chunks will still load correctly. Just avoid having machines nearby that generate drop items, or your MSPT (Milliseconds per Tick) could skyrocket, potentially crashing your game. To stop the loader, just pull the lever again.
+
+However, the loader isn’t unload-proof, meaning it stops working when you exit the game. You’ll need to manually restart it by pulling the lever again. For an unload-proof version, build it on the edge of the 21×21 chunk spawn area, close to the outer side, with an isolation switch. To shut it down, lure the zombie villagers to the outer side and then close the connection.
+
+Pseudo-Peaceful doesn’t prevent all hostile mobs from spawning; for example, phantoms will still spawn, spawners will still work, and zombie sieges can't be prevented. Zombie Piglins from Nether portals will also spawn as usual, meaning your Overworld piglin farm won’t be affected. Pseudo-Peaceful can also be done in the Nether, but it’s currently not possible in the End due to the lack of Nether portals. If you’re doing this on a server, keep in mind that each player has a mob cap of 70, so two players will need 140 zombie villagers, and 10 players will need 700. This makes it less practical and more demanding on server resources.
+
+Overall, Pseudo-Peaceful is a very practical device, and it’s relatively easy to build. I highly recommend it for single-player games, especially in Hardcore mode, as it can help avoid unnecessary fights. It’s both cost-effective and useful.
